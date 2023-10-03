@@ -26,7 +26,8 @@ main{
     width: 65%;
     margin-left: 12%;
 }
-/* Tweak the different sections to show mood */
+/* Adjustments to the Font-weight, letter-spacing and size 
+is the most commonly used mechanism for highlighting the mood.*/
 .sad p{
     letter-spacing: .8px;
 }
@@ -39,6 +40,7 @@ main{
     font-size: 23px;
     letter-spacing: .6px;
 }
+/* I Liked Rajdhani for adding a heavy more intense section of the song */
 .somber p{
     font-family: 'Rajdhani', sans-serif;
     font-weight: 600;
