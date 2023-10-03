@@ -1,0 +1,88 @@
+/* Initialize our commonly used elements */
+html{
+    background-color: #0e0e0e;
+}
+p{
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 26px;
+    font-weight: 300;
+    color: #e0e0e0;
+    margin: auto;
+    letter-spacing: 1.5px;
+    margin-bottom: 25px;
+}
+h1, h2{
+    font-family: 'Rajdhani', sans-serif;
+    color: #e0e0e0;
+    font-size: 64px;
+    margin: auto;
+    text-align: center;
+}
+h2{
+    font-size: 46px;
+    margin: auto;
+}
+main{
+    width: 65%;
+    margin-left: 12%;
+}
+/* Tweak the different sections to show mood */
+.sad p{
+    letter-spacing: .8px;
+}
+.sad p:first-child{
+    font-weight: 300;
+    font-size: 23px;
+}
+.sad p:nth-child(2){
+    font-weight: 200;
+    font-size: 23px;
+    letter-spacing: .6px;
+}
+.somber p{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+}
+.somber p:first-child,
+.somber p:last-child{
+    font-size: 28px;
+    color: #EC7625;
+}
+.somber p:nth-child(3){
+    font-size: 30px;
+}
+.somber p:last-child{
+    font-size: 30px;
+}
+.closing p{
+    letter-spacing: 2.4px;
+    font-weight: 200;
+    font-size: 29px;
+}
+.closing p:last-child{
+    font-size: 25px;
+    letter-spacing: .6px;
+    color: #EC7625;
+}
+/* Individual inflection styling */
+.better{
+    color: aqua;
+    letter-spacing: 3.5px;
+    font-weight: 200;
+}
+.blood{
+    color: #ff4f00;
+    letter-spacing: 2.5px;
+}
+.breathe{
+    color: #2AD17B;
+    letter-spacing: 3.5px;
+}
+.LastBlood{
+    letter-spacing: 2.5px;  
+    color: aqua;  
+}
+.LastBlood:last-of-type{
+    letter-spacing: .5px;
+    font-size: 20px;
+}
